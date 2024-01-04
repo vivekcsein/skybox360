@@ -1,0 +1,37 @@
+{
+  "name": "skybox360",
+  "version": "1.0.0",
+  "description": "apackage for skyboxes 360 panorama view in nextjs typescript",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekcsein/skybox360.git"
+  },
+  "keywords": [
+    "panorama"
+  ],
+  "author": "vivekcse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivekcsein/skybox360/issues"
+  },
+  "homepage": "https://github.com/vivekcsein/skybox360#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.46",
+    "react": "^18.2.0",
+    "rollup": "^4.9.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.3.3"
+  }
+}
