@@ -1,5 +1,3 @@
-Install pannellum-react
-
 <p>
 Install pannellum-react
 
